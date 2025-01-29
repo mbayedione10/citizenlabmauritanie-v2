@@ -9,7 +9,7 @@ import { blogListRobots, getStaticPathsBlogList } from "~/utils/blog";
 
 changeLanguage("fr");
 
-;
+
 export const prerender = true;
 export async function getStaticPaths({ paginate }) {
     return await getStaticPathsBlogList({ paginate });
